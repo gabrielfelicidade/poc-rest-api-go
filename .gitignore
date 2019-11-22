@@ -12,3 +12,4 @@
 *.out
 
 vendor/*
+poc-rest-api-go
