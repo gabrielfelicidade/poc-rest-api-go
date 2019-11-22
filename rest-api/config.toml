@@ -1,0 +1,3 @@
+Server="mongodb://root:root@mongo:27017"
+Database="movies_db"
+Port="3000"
