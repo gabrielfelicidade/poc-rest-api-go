@@ -1,7 +1,7 @@
 FROM golang:1.13.4-alpine3.10
 
 WORKDIR /go/src/poc-rest-api-go/rest-api
-COPY . /go/src/poc-rest-api-go/rest-api
+COPY . .
 
 RUN apk --no-cache add curl
 RUN apk --no-cache add git
